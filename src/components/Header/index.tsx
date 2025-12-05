@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function Header() {
   return (
-    <header className="fixed top-2 border border-zinc-600 bg-zinc-50/25 backdrop-blur-2xl rounded-4xl px-4 py-2">
+    <header className="fixed z-50 top-2 border border-zinc-600 bg-zinc-50/25 backdrop-blur-2xl rounded-4xl px-4 py-2">
       <nav>
         <ul className="flex items-center gap-8 justify-between">
           <li>
