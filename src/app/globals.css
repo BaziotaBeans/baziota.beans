@@ -9,7 +9,7 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-inter);
-  --font-mono: var(--font-inter);
+  --font-mono: var(--font-manrope);
   --font-array: var(--font-array);
 }
 
@@ -17,5 +17,12 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  font-family: var(--font-manrope), system-ui, -apple-system, sans-serif;
+}
+
+
+@layer components {
+  .header-nav-link {
+    @apply text-sm font-bold text-zinc-300 transition-colors duration-300 hover:text-emerald-400;
+  }
 }

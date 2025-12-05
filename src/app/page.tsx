@@ -1,7 +1,9 @@
+import { Header } from "@/components/Header";
+
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center gap-8 p-8">
-      
-    </div>
+    <main className="flex min-h-screen flex-col items-center gap-8 p-8">
+      <Header />
+    </main>
   );
 }
