@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Manrope } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
+import LightRays from "@/components/BackgroundAnimations/LightRays";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -67,6 +68,19 @@ export default function RootLayout({
       <body
         className={`${manrope.variable} ${inter.variable} ${arrayFont.variable} antialiased`}
       >
+        <div className="absolute inset-0 top-0 z-[-1] min-h-screen">
+          <LightRays
+            raysOrigin="top-center"
+            raysColor="#5dfeca"
+            raysSpeed={0.5}
+            lightSpread={0.9}
+            rayLength={1.4}
+            followMouse={true}
+            mouseInfluence={0.05}
+            noiseAmount={0.3}
+            distortion={0.01}
+          />
+        </div>
         {children}
       </body>
     </html>
