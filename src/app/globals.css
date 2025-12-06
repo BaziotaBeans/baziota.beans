@@ -17,6 +17,7 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-manrope), system-ui, -apple-system, sans-serif;
+  @apply bg-linear-to-tl from-gray-800 via-gray-950 to-black;
 }
 
 @keyframes pulse-animation {
@@ -41,5 +42,7 @@ body {
     animation: pulse-animation 1.3s infinite cubic-bezier(0.4, 0, 0.2, 1) alternate;
   }
 
-  
+  .hero-links {
+    @apply cursor-pointer transition-colors duration-300 hover:text-green-400;
+  }
 }
