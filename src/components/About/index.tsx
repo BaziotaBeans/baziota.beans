@@ -7,15 +7,15 @@ import { EducationSection } from "./EducationSection";
 
 export function About() {
   return (
-    <section className="w-full relative z-50 bg-transparent py-4">
+    <section className="w-full relative z-50 bg-transparent py-30">
       <MaxWidthWrapper>
-        <GoBack className="mb-14" />
-
         <div className="flex flex-col md:flex-row items-center gap-10">
           <div className="space-y-4 w-full">
-            <h1 className="text-4xl text-neutral-200 mb-8 font-array">ABOUT ME</h1>
+            <h1 className="text-4xl text-neutral-200 mb-8 font-array text-center md:text-left">
+              ABOUT ME
+            </h1>
 
-            <p className="max-w-md leading-relaxed text-gray-400 font-medium">
+            <p className="md:max-w-md max-w-full leading-relaxed text-gray-400 font-medium text-center md:text-left">
               I'm a passionate software engineer dedicated to crafting elegant
               solutions for complex problems. With expertise in full-stack
               development, I enjoy building user-centric applications that make
