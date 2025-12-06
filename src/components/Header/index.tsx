@@ -7,14 +7,14 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 export function Header() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const handleOpenMenu = () => {
     setIsOpen(!isOpen);
   };
 
   return (
-    <header className="fixed z-50 top-4 border border-zinc-200/10 bg-zinc-50/15 backdrop-blur-xl rounded-4xl py-4  px-6 md:py-2 w-72 md:w-auto">
+    <header className="fixed z-50 top-4 border border-zinc-200/10 bg-zinc-50/15 backdrop-blur-xl rounded-4xl py-3 px-6 md:py-2 w-72 md:w-auto">
       <div className="flex items-center justify-between md:hidden">
         <div className="w-8 h-8 grid grid-cols-3 gap-1">
           {[0, 1, 2, 3, 4, 5, 6, 7, 8].map((index) => {
@@ -23,7 +23,7 @@ export function Header() {
               <div
                 key={index}
                 className={`w-full h-full ${
-                  isActive ? "bg-[#90EE90]" : "bg-transparent"
+                  isActive ? "bg-green-400" : "bg-transparent"
                 }`}
               />
             );
