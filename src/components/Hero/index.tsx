@@ -1,7 +1,5 @@
 "use client";
 
-import DarkVeil from "../BackgroundAnimations/DarkVeil";
-import LightRays from "../BackgroundAnimations/LightRays";
 import { Me } from "../Me";
 import { ActionButtons } from "./ActionButtons";
 
@@ -11,8 +9,8 @@ export function Hero() {
       <div className="absolute top-36 w-full flex flex-col items-center justify-center">
         <Me />
         <div className="flex items-center gap-2 rounded-2xl p-2.5 text-sm font-semibold text-zinc-300 bg-black/55 px-4 border border-green-950">
-          <div className="circle-pulse-animation circle-pulse" /> 🚀 Available for
-          opportunities
+          <div className="circle-pulse-animation circle-pulse" /> 🚀 Available
+          for opportunities
         </div>
 
         <h1 className="text-center font-array text-6xl mt-8">
