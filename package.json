@@ -13,6 +13,7 @@
     "node": "~22.x.x"
   },
   "dependencies": {
+    "@react-three/fiber": "^9.4.2",
     "motion": "^12.23.25",
     "next": "16.0.7",
     "ogl": "^1.0.11",

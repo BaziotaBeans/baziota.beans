@@ -23,6 +23,6 @@ body {
 
 @layer components {
   .header-nav-link {
-    @apply text-sm font-bold text-zinc-300 transition-colors duration-300 hover:text-emerald-400;
+    @apply text-sm font-bold text-zinc-300 transition-colors duration-300 hover:text-green-400;
   }
 }
