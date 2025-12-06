@@ -34,6 +34,10 @@ body {
     @apply text-sm font-bold text-zinc-300 transition-colors duration-300 hover:text-green-400;
   }
 
+  .header-nav-link-mobile {
+    @apply text-3xl text-green-300 font-extrabold transition-all duration-300;
+  }
+
   .circle-pulse {
     @apply w-2.5 h-2.5 rounded-full bg-green-400 flex items-center justify-center;
   }
