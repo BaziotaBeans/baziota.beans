@@ -5,6 +5,14 @@ const education = [
     degree: "Bachelor's Degree in Computer Engineering",
     institution: "Catholic University of Angola",
   },
+  {
+    degree: "High School",
+    institution: "Alpega School",
+  },
+  {
+    degree: "Elementary/Middle School",
+    institution: "French Alliance",
+  },
 ];
 
 export function EducationSection() {
