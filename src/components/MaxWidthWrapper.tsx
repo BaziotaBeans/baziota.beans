@@ -10,7 +10,7 @@ interface MaxWidthWrapperProps {
 
 const SIZE_CLASSES: Record<SizeClass, string> = {
   md: "max-w-3xl",
-  lg: "max-w-5xl",
+  lg: "max-w-4xl",
 };
 
 const MaxWidthWrapper = ({

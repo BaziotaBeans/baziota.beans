@@ -46,13 +46,13 @@ export function Header() {
             </Link>
           </li>
           <li>
-            <Link href="/" className="header-nav-link">
-              Works
+            <Link href="/about" className="header-nav-link">
+              About
             </Link>
           </li>
           <li>
             <Link href="/" className="header-nav-link">
-              About
+              Works
             </Link>
           </li>
           <li>
@@ -62,7 +62,9 @@ export function Header() {
           </li>
         </ul>
       </nav>
-      <nav className={cn("block md:hidden mt-8 pb-2", isOpen ? "block" : "hidden")}>
+      <nav
+        className={cn("block md:hidden mt-8 pb-2", isOpen ? "block" : "hidden")}
+      >
         <ul className="flex flex-col gap-8">
           <li>
             <Link href="/" className="header-nav-link-mobile">

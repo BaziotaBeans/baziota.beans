@@ -1,11 +1,9 @@
-export default function About() {
+import { About } from "@/components/About";
+
+export default function Page() {
   return (
-    <div>
-      <h1>About</h1>
-    </div>
+    <main className="flex min-h-screen flex-col items-center relative">
+      <About />
+    </main>
   );
 }
-
-
-
-
