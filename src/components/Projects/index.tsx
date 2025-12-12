@@ -1,4 +1,5 @@
 import MaxWidthWrapper from "../MaxWidthWrapper";
+import { ProjectsGallery } from "./ProjectsGallery";
 import { TagBuildingThing } from "./TagBuildingThing";
 
 export function Projects() {
@@ -19,6 +20,8 @@ export function Projects() {
         <div className="w-full h-px bg-gray-800 my-8 border-dashed border-neutral-600" />
 
         <TagBuildingThing />
+
+        <ProjectsGallery />
       </MaxWidthWrapper>
     </section>
   );
