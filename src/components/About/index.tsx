@@ -4,6 +4,7 @@ import { PiCursorClickLight } from "react-icons/pi";
 import { GoBack } from "../GoBack";
 import { ExperienceList } from "./ExperienceList";
 import { EducationSection } from "./EducationSection";
+import { Links } from "../Hero/Links";
 
 export function About() {
   return (
@@ -48,6 +49,7 @@ export function About() {
 
         <ExperienceList />
         <EducationSection />
+        <Links className="mt-20"/>
       </MaxWidthWrapper>
     </section>
   );

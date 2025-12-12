@@ -6,8 +6,8 @@ import { Links } from "./Links";
 
 export function Hero() {
   return (
-    <section className="w-full relative py-36 px-4 max-w-96 md:max-w-none mx-auto min-h-screen">
-      <div className="w-full flex flex-col items-center justify-center md:w-auto">
+    <section className="w-full relative px-4 max-w-96 md:max-w-none mx-auto h-screen">
+      <div className="w-full flex flex-col items-center justify-center md:w-auto h-full">
         <Me />
 
         <h1 className="text-center font-array text-4xl md:text-6xl mt-8">

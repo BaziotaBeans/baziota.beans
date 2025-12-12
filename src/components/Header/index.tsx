@@ -51,13 +51,13 @@ export function Header() {
             </Link>
           </li>
           <li>
-            <Link href="/" className="header-nav-link">
-              Works
+            <Link href="/projects" className="header-nav-link">
+              Projects
             </Link>
           </li>
           <li>
-            <Link href="/" className="header-nav-link">
-              FAQ
+            <Link href="/setup" className="header-nav-link">
+              Setup
             </Link>
           </li>
         </ul>
@@ -83,7 +83,7 @@ export function Header() {
           </li>
           <li>
             <Link href="/" className="header-nav-link-mobile">
-              FAQ
+              Setup
             </Link>
           </li>
         </ul>
