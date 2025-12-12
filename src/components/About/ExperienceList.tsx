@@ -2,13 +2,14 @@ import { ExperienceItem } from "./ExperienceItem";
 
 const experiences = [
   {
-    title: "SOFTWARE DEVELOPER (FRONT-END)",
+    title: "SOFTWARE DEVELOPER (FULL STACK)",
     company: "Fisgar",
     location: "Brazil",
     period: "2025 - Present",
     description: [
       "Currently at Fisgar, I'm working on the platform: https://fisgar.com.br/ developing, maintaining, and adding new features.",
-      "Using technologies such as Next.js, React, Jest, React Testing Library, WebSocket, among other technologies in the TypeScript and React ecosystem focused on web development.",
+      "Working with frontend technologies such as Next.js, React, Jest, React Testing Library, WebSocket, among other technologies in the TypeScript and React ecosystem focused on web development.",
+      "Backend development using Spring Boot, Node.js with Express framework, and Firebase Functions for serverless functions and API development.",
     ],
     technologies: [
       "TypeScript",
@@ -17,6 +18,14 @@ const experiences = [
       "Jest",
       "React Testing Library",
       "WebSocket",
+      "Spring Boot",
+      "Node.js",
+      "Express",
+      "Firebase Functions",
+      "Docker",
+      "PostgreSQL",
+      "MySQL",
+      "CI/CD",
     ],
     website: "https://fisgar.com.br/",
   },
@@ -38,6 +47,8 @@ const experiences = [
       "JavaScript",
       "HTML",
       "CSS",
+      "Docker",
+      "CI/CD",
     ],
   },
   {
@@ -63,6 +74,12 @@ const experiences = [
       "Electron",
       "JavaScript",
       "RESTful APIs",
+      "Docker",
+      "CI/CD",
+      "Storybook",
+      "Jest",
+      "React Testing Library",
+      "React Native Testing Library",
     ],
   },
   {
@@ -109,4 +126,3 @@ export function ExperienceList() {
     </section>
   );
 }
-
