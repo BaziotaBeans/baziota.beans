@@ -1,5 +1,6 @@
 import MaxWidthWrapper from "../MaxWidthWrapper";
 import { SetupGallery } from "./SetupGallery";
+import { TechAndTools } from "./TechAndTools";
 
 export function Setup() {
   return (
@@ -16,6 +17,8 @@ export function Setup() {
         </p>
 
         <SetupGallery />
+
+        <TechAndTools />
       </MaxWidthWrapper>
     </section>
   );
