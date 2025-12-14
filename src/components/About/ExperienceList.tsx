@@ -115,7 +115,7 @@ const experiences = [
 export function ExperienceList() {
   return (
     <section className="mt-16">
-      <h2 className="text-3xl font-bold text-neutral-200 mb-8 font-array">
+      <h2 className="text-3xl text-neutral-200 mb-8 font-array">
         EXPERIENCE
       </h2>
       <ol className="relative space-y-8 before:absolute before:-ml-px before:h-full before:w-0.5 before:rounded-full before:bg-gray-200 dark:before:bg-gray-700">

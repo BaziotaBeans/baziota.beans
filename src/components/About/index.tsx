@@ -49,7 +49,6 @@ export function About() {
 
         <ExperienceList />
         <EducationSection />
-        <Links className="mt-20"/>
       </MaxWidthWrapper>
     </section>
   );

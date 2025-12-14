@@ -1,3 +1,4 @@
+import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Projects } from "@/components/Projects";
 
@@ -6,6 +7,7 @@ export default function Page() {
     <main className="flex min-h-screen flex-col items-center relative">
       <Header />
       <Projects />
+      <Footer />
     </main>
   );
 }
