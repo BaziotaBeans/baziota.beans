@@ -35,6 +35,14 @@
         "Kinde",
         "HeadlessUI"
       ]
+    },
+    {
+      "year": 2025,
+      "name": "Velvet Pour",
+      "description": "An immersive cocktail website with scroll-synced video playback and cinematic animations.",
+      "image": "/images/projects/project-03.png",
+      "link": "https://cocktail-gsap-beans.vercel.app/",
+      "tags": ["React", "Tailwind CSS", "Javascript", "Vite", "GSAP", "Kinde"]
     }
   ]
 }
