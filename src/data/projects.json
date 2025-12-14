@@ -18,6 +18,22 @@
         "Jest",
         "React Testing Library"
       ]
+    },
+    {
+      "year": 2023,
+      "name": "Case Cobra",
+      "description": "Modern E-Commerce Store for custom phone cases.",
+      "image": "/images/projects/project-02.png",
+      "link": "https://casecobra-beans.vercel.app/",
+      "tags": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "TypeScript",
+        "Stripe",
+        "Prisma",
+        "Kinde"
+      ]
     }
   ]
 }
