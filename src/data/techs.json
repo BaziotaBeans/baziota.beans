@@ -1,0 +1,91 @@
+{
+  "data": [
+    {
+      "name": "React",
+      "url": "https://react.dev/"
+    },
+    {
+      "name": "Next.js",
+      "url": "https://nextjs.org/"
+    },
+    {
+      "name": "Java",
+      "url": "https://www.java.com/"
+    },
+    {
+      "name": "Tailwind CSS",
+      "url": "https://tailwindcss.com/"
+    },
+    {
+      "name": "TypeScript",
+      "url": "https://www.typescriptlang.org/"
+    },
+    {
+      "name": "PostgreSQL",
+      "url": "https://www.postgresql.org/"
+    },
+    {
+      "name": "Docker",
+      "url": "https://www.docker.com/"
+    },
+    {
+      "name": "CI/CD"
+    },
+    {
+      "name": "Storybook",
+      "url": "https://storybook.js.org/"
+    },
+    {
+      "name": "Jest",
+      "url": "https://jestjs.io/"
+    },
+    {
+      "name": "React Testing Library",
+      "url": "https://testing-library.com/docs/react-testing-library/intro/"
+    },
+    {
+      "name": "Spring Boot",
+      "url": "https://spring.io/projects/spring-boot"
+    },
+    {
+      "name": "Spring Security",
+      "url": "https://spring.io/projects/spring-security"
+    },
+    {
+      "name": "React Testing Library",
+      "url": "https://testing-library.com/docs/react-testing-library/intro/"
+    },
+    {
+      "name": "Vitest",
+      "url": "https://vitest.dev/"
+    },
+    {
+      "name": "Cypress",
+      "url": "https://www.cypress.io/"
+    },
+    {
+      "name": "Playwright",
+      "url": "https://playwright.dev/"
+    },
+    {
+      "name": "Node.js",
+      "url": "https://nodejs.org/"
+    },
+    {
+      "name": "Express",
+      "url": "https://expressjs.com/"
+    },
+    {
+      "name": "Fastify",
+      "url": "https://fastify.dev/"
+    },
+    {
+      "name": "NestJS",
+      "url": "https://nestjs.com/"
+    },
+    {
+      "name": "Elysia.js",
+      "url": "https://elysiajs.com/"
+    }
+  ]
+}

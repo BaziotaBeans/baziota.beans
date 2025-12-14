@@ -2,6 +2,7 @@
 
 import TechBadges from "@/components/TechBadges";
 import Image from "next/image";
+import { TechBadge } from "./TechBage";
 
 export interface Props {
   year: number;
@@ -35,7 +36,7 @@ export function ProjectCard({
           className="w-full h-full object-cover"
         />
       </div>
-      <TechBadges />
+
       <div className="flex flex-wrap gap-2 mt-2">
         {tags.map((tag) => (
           <span
