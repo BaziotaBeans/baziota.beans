@@ -3,6 +3,7 @@ import { Inter, Manrope } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import LightRays from "@/components/BackgroundAnimations/LightRays";
+import { Header } from "@/components/Header";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -81,7 +82,10 @@ export default function RootLayout({
             distortion={0.01}
           />
         </div>
-        {children}
+        <main className="flex min-h-screen flex-col items-center relative">
+          <Header />
+          {children}
+        </main>
       </body>
     </html>
   );

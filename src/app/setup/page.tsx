@@ -5,10 +5,9 @@ import { Setup } from "@/components/Setup";
 
 export default function Page() {
   return (
-    <main className="flex min-h-screen flex-col items-center relative">
-      <Header />
+    <>
       <Setup />
       <Footer />
-    </main>
+    </>
   );
 }
