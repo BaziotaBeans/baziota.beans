@@ -1,19 +1,35 @@
+import { ImageResponse } from "next/og";
+
+export const size = {
+  width: 32,
+  height: 32,
+};
+
+export const contentType = "image/png";
+
 export default function Icon() {
-  return (
-    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect width="32" height="32" rx="6" fill="#10b981" />
-      <text
-        x="16"
-        y="22"
-        fontFamily="system-ui, -apple-system, sans-serif"
-        fontSize="20"
-        fontWeight="bold"
-        fill="white"
-        textAnchor="middle"
+  return new ImageResponse(
+    (
+      <div
+        style={{
+          fontSize: 20,
+          background: "#02100b",
+          width: "100%",
+          height: "100%",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          color: "white",
+          fontWeight: "bold",
+          borderRadius: "6px",
+        }}
       >
         B
-      </text>
-    </svg>
+      </div>
+    ),
+    {
+      ...size,
+    }
   );
 }
 

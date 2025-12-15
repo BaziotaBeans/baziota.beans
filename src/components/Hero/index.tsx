@@ -3,25 +3,54 @@
 import { Me } from "../Me";
 import { ActionButtons } from "./ActionButtons";
 import { Links } from "./Links";
+import { motion } from "motion/react";
 
 export function Hero() {
   return (
     <section className="w-full relative px-4 max-w-96 md:max-w-none mx-auto h-screen">
       <div className="w-full flex flex-col items-center justify-center md:w-auto h-full">
-        <Me />
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+        >
+          <Me />
+        </motion.div>
 
-        <h1 className="text-center font-array text-4xl md:text-6xl mt-8">
+        <motion.h1
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
+          className="text-center font-array text-4xl md:text-6xl mt-8"
+        >
           Welcome to <br /> my digital humble abode
-        </h1>
+        </motion.h1>
 
-        <p className="text-balance text-center text-gray-400 text-sm md:text-base font-semibold mt-4">
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.4, ease: "easeOut" }}
+          className="text-balance text-center text-gray-400 text-sm md:text-base font-semibold mt-4"
+        >
           I am an independent developer. <br /> My interests lie in brand
           experience and user experience.
-        </p>
+        </motion.p>
 
-        <ActionButtons />
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.6, ease: "easeOut" }}
+        >
+          <ActionButtons />
+        </motion.div>
 
-        <Links className="mt-8" />
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.8, ease: "easeOut" }}
+        >
+          <Links className="mt-8" />
+        </motion.div>
       </div>
     </section>
   );
