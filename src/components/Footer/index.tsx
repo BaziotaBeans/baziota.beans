@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaXTwitter, FaLinkedinIn, FaFacebookF, FaCodepen, FaInstagram, FaGithub } from "react-icons/fa6";
+import { FaXTwitter, FaLinkedinIn, FaFacebookF, FaCodepen, FaInstagram, FaGithub, FaEnvelope } from "react-icons/fa6";
 
 
 export function Footer() {
@@ -40,6 +40,12 @@ export function Footer() {
           className="hero-links"
         >
           <FaGithub />
+        </Link>
+        <Link
+          href="mailto:fabiobaziota@gmail.com"
+          className="hero-links"
+        >
+          <FaEnvelope />
         </Link>
       </div>
       <p className="text-xs">
