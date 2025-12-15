@@ -10,11 +10,11 @@ export function Setup() {
           How I Build — Setup, Tech & Tools
         </h1>
 
-        <p className="text-neutral-400 text-center md:text-left">
+        {/* <p className="text-neutral-400 text-center md:text-left">
           From canvas to terminal, these are the tools I rely on every day. A
           small, curated stack that helps me move from idea to shipped product
           with clarity and craft.
-        </p>
+        </p> */}
 
         <SetupGallery />
 

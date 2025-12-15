@@ -2,9 +2,63 @@
   "data": [
     {
       "name": "Cursor",
-      "description": "Cursor is a modern, open-source code editor that is built for the web. It is a fast, lightweight, and easy to use editor that is perfect for coding.",
-      "src": "/images/tools/cursor.png",
-      "link": "https://www.cursor.com/"
+      "url": "https://www.cursor.com/"
+    },
+    {
+      "name": "VS Code",
+      "url": "https://code.visualstudio.com/"
+    },
+    {
+      "name": "JetBrains IDEs",
+      "url": "https://www.jetbrains.com/pt-br/products/"
+    },
+    {
+      "name": "Figma",
+      "url": "https://www.figma.com/"
+    },
+    {
+      "name": "Adobe Photoshop",
+      "url": "https://www.adobe.com/br/products/photoshop.html"
+    },
+    {
+      "name": "Docker",
+      "url": "https://www.docker.com/"
+    },
+    {
+      "name": "Postman",
+      "url": "https://www.postman.com/"
+    },
+    {
+      "name": "Insomnia",
+      "url": "https://insomnia.rest/"
+    },
+    {
+      "name": "Cloude AI",
+      "url": "https://claude.ai/"
+    },
+    {
+      "name": "ChatGPT",
+      "url": "https://chatgpt.com/"
+    },
+    {
+      "name": "DeepSeek",
+      "url": "https://deepseek.com/"
+    },
+    {
+      "name": "Gemini",
+      "url": "https://gemini.google.com/"
+    },
+    {
+      "name": "Notion",
+      "url": "https://www.notion.so/"
+    },
+    {
+      "name": "Jira",
+      "url": "https://www.atlassian.com/software/jira"
+    },
+    {
+      "name": "Slack",
+      "url": "https://slack.com/"
     }
   ]
 }

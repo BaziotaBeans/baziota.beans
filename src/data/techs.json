@@ -52,10 +52,6 @@
       "url": "https://spring.io/projects/spring-security"
     },
     {
-      "name": "React Testing Library",
-      "url": "https://testing-library.com/docs/react-testing-library/intro/"
-    },
-    {
       "name": "Vitest",
       "url": "https://vitest.dev/"
     },
@@ -86,6 +82,34 @@
     {
       "name": "Elysia.js",
       "url": "https://elysiajs.com/"
+    },
+    {
+      "name": "Prisma",
+      "url": "https://www.prisma.io/"
+    },
+    {
+      "name": "MongoDB",
+      "url": "https://www.mongodb.com/"
+    },
+    {
+      "name": "Redis",
+      "url": "https://redis.io/"
+    },
+    {
+      "name": "RabbitMQ",
+      "url": "https://www.rabbitmq.com/"
+    },
+    {
+      "name": "Apache Kafka",
+      "url": "https://kafka.apache.org/"
+    },
+    {
+      "name": "Python",
+      "url": "https://www.python.org/"
+    },
+    {
+      "name": "Firebase",
+      "url": "https://firebase.google.com/"
     }
   ]
 }
