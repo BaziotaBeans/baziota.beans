@@ -72,17 +72,17 @@ export function Header() {
             </Link>
           </li>
           <li>
-            <Link href="/" className="header-nav-link-mobile">
+            <Link href="/about" className="header-nav-link-mobile">
               About
             </Link>
           </li>
           <li>
-            <Link href="/" className="header-nav-link-mobile">
-              Works
+            <Link href="/projects" className="header-nav-link-mobile">
+              Projects
             </Link>
           </li>
           <li>
-            <Link href="/" className="header-nav-link-mobile">
+            <Link href="/setup" className="header-nav-link-mobile">
               Setup
             </Link>
           </li>
