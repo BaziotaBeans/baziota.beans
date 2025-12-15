@@ -1,7 +1,10 @@
 export function ActionButtons() {
   return (
     <div className="flex items-center gap-2 mt-6 md:flex-row flex-col w-full md:w-auto">
-      <button className="w-full md:w-auto relative flex items-center gap-1 bg-white hover:bg-neutral-600 px-9 py-2.5 border-4 border-neutral-500 text-base rounded-2xl font-semibold text-neutral-600 cursor-pointer overflow-hidden transition-all  hover:text-white group hover:transition-all duration-700 hover:duration-700">
+      <a
+        href="mailto:fabiobaziota@gmail.com"
+        className="w-full md:w-auto relative flex items-center gap-1 bg-white hover:bg-neutral-600 px-9 py-2.5 border-4 border-neutral-500 text-base rounded-2xl font-semibold text-neutral-600 cursor-pointer overflow-hidden transition-all  hover:text-white group hover:transition-all duration-700 hover:duration-700"
+      >
         <svg
           viewBox="0 0 24 24"
           className="absolute w-6 fill-white z-9 transition-all duration-700  -left-1/4 group-hover:left-4 group-hover:fill-white"
@@ -21,11 +24,11 @@ export function ActionButtons() {
         >
           <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
         </svg>
-      </button>
+      </a>
 
       <a
-        href="/cv.pdf"
-        download
+        href="/CV - Fábio baziota.pdf"
+        download="CV - Fábio baziota.pdf"
         className="relative w-full md:w-auto flex items-center gap-1 bg-black/55 px-9 py-2.5 border-4 border-green-950 text-base rounded-2xl font-semibold text-white cursor-pointer overflow-hidden transition-all hover:text-white hover:rounded-2xl group hover:transition-all duration-700 hover:duration-700"
       >
         <svg
