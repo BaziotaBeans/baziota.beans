@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import LightRays from "@/components/BackgroundAnimations/LightRays";
 import { Header } from "@/components/Header";
+import { Loading } from "@/components/Loading";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -69,6 +70,7 @@ export default function RootLayout({
       <body
         className={`${manrope.variable} ${inter.variable} ${arrayFont.variable} antialiased`}
       >
+        <Loading />
         <div className="absolute inset-0 top-0 z-[-1] min-h-screen">
           <LightRays
             raysOrigin="top-center"
