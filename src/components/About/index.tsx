@@ -1,10 +1,9 @@
 import Image from "next/image";
 import MaxWidthWrapper from "../MaxWidthWrapper";
 import { PiCursorClickLight } from "react-icons/pi";
-import { GoBack } from "../GoBack";
 import { ExperienceList } from "./ExperienceList";
 import { EducationSection } from "./EducationSection";
-import { Links } from "../Hero/Links";
+import { getBlurDataURL } from "@/lib/imageUtils";
 
 export function About() {
   return (
@@ -35,6 +34,8 @@ export function About() {
               alt="Beans"
               width={265.98}
               height={299.38}
+              placeholder="blur"
+              blurDataURL={getBlurDataURL()}
             />
 
             <div className="flex flex-col items-start relative h-10 py-3">

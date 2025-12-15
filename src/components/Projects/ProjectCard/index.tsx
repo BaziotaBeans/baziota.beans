@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { Globe } from "lucide-react";
 import Link from "next/link";
+import { getBlurDataURL } from "@/lib/imageUtils";
 
 export interface Props {
   year: number;
@@ -33,6 +34,8 @@ export function ProjectCard({
           width={800}
           height={600}
           quality={100}
+          placeholder="blur"
+          blurDataURL={getBlurDataURL()}
           className="w-full h-full object-cover transition-all duration-500 group-hover:-translate-y-2 group-hover:scale-105"
         />
       </div>

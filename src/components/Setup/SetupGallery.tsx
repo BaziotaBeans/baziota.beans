@@ -1,6 +1,7 @@
 import Image from "next/image";
 import setups from "@/data/setups.json";
 import Link from "next/link";
+import { getBlurDataURL } from "@/lib/imageUtils";
 
 export function SetupGallery() {
   return (
@@ -26,6 +27,8 @@ export function SetupGallery() {
                 width={800}
                 height={600}
                 quality={100}
+                placeholder="blur"
+                blurDataURL={getBlurDataURL()}
                 className="w-full h-52 rounded-md object-contain"
               />
             </div>
