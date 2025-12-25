@@ -30,7 +30,11 @@ export function Header() {
           })}
         </div>
 
-        <button className="cursor-pointer" onClick={handleOpenMenu}>
+        <button
+          type="button"
+          className="cursor-pointer"
+          onClick={handleOpenMenu}
+        >
           {isOpen ? (
             <CgClose className="size-8 text-neutral-500" />
           ) : (

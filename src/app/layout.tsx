@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
 import { Inter, Manrope } from "next/font/google";
 import localFont from "next/font/local";
+import { NextIntlClientProvider } from "next-intl";
 import "./globals.css";
 import LightRays from "@/components/BackgroundAnimations/LightRays";
 import { Header } from "@/components/Header";
 import { Loading } from "@/components/Loading";
+import { LocaleSelector } from "@/components/Header/LocaleSelector";
+import { getMessages, getLocale } from "@/lib/getMessages";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -60,13 +63,16 @@ export const metadata: Metadata = {
   description: "Beans is a portfolio website for Baziotabeans",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const messages = await getMessages();
+  const locale = await getLocale();
+
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body
         className={`${manrope.variable} ${inter.variable} ${arrayFont.variable} antialiased`}
       >
@@ -85,8 +91,11 @@ export default function RootLayout({
           />
         </div>
         <main className="flex min-h-screen flex-col items-center relative">
-          <Header />
-          {children}
+          <NextIntlClientProvider messages={messages} locale={locale}>
+            <Header />
+            {children}
+            <LocaleSelector />
+          </NextIntlClientProvider>
         </main>
       </body>
     </html>

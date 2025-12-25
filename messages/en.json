@@ -1,0 +1,10 @@
+{
+  "HomePage": {
+    "title": "Hello world!",
+    "opportunity": "Available for opportunities"
+  },
+  "Hero": {
+    "title": "Welcome to <br /> my digital humble abode",
+    "description": "I am an independent developer. <br /> My interests lie in brand experience and user experience."
+  }
+}

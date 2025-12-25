@@ -4,8 +4,11 @@ import { Me } from "../Me";
 import { ActionButtons } from "./ActionButtons";
 import { Links } from "./Links";
 import { motion } from "motion/react";
+import { useTranslations } from "next-intl";
 
 export function Hero() {
+  const t = useTranslations("Hero");
+
   return (
     <section className="w-full relative px-4 max-w-96 md:max-w-none mx-auto h-screen">
       <div className="w-full flex flex-col items-center justify-center md:w-auto h-full">
@@ -23,7 +26,14 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
           className="text-center font-array text-4xl md:text-6xl mt-8"
         >
-          Welcome to <br /> my digital humble abode
+          {t("title")
+            .split(/<br\s*\/?>/i)
+            .map((line, index, array) => (
+              <span key={`title-${line.trim()}-${index}`}>
+                {line.trim()}
+                {index < array.length - 1 && <br />}
+              </span>
+            ))}
         </motion.h1>
 
         <motion.p
@@ -32,8 +42,14 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.4, ease: "easeOut" }}
           className="text-balance text-center text-gray-400 text-sm md:text-base font-semibold mt-4"
         >
-          I am an independent developer. <br /> My interests lie in brand
-          experience and user experience.
+          {t("description")
+            .split(/<br\s*\/?>/i)
+            .map((line, index, array) => (
+              <span key={`description-${line.trim()}-${index}`}>
+                {line.trim()}
+                {index < array.length - 1 && <br />}
+              </span>
+            ))}
         </motion.p>
 
         <motion.div
