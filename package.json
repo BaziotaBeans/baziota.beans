@@ -10,7 +10,7 @@
     "format": "biome format --write"
   },
   "engines": {
-    "node": "~22.x.x"
+    "node": ">=22.x.x"
   },
   "dependencies": {
     "@react-three/fiber": "^9.4.2",
