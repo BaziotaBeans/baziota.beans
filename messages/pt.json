@@ -5,6 +5,8 @@
   },
   "Hero": {
     "title": "Bem-vindo ao <br /> meu humilde lar digital",
-    "description": "Sou um desenvolvedor independente. <br /> Meus interesses estão na experiência de marca e experiência do usuário."
+    "description": "Sou um desenvolvedor independente. <br /> Meus interesses estão na experiência de marca e experiência do usuário.",
+    "contactButton": "Vamos conversar",
+    "downloadCV": "Baixar CV"
   }
 }
