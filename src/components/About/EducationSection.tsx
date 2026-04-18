@@ -1,32 +1,27 @@
+import { getTranslations } from "next-intl/server";
 import { EducationItem } from "./EducationItem";
 
-const education = [
-  {
-    degree: "Bachelor's Degree in Computer Engineering",
-    institution: "Catholic University of Angola",
-  },
-  {
-    degree: "High School",
-    institution: "Alpega School",
-  },
-  {
-    degree: "Elementary/Middle School",
-    institution: "French Alliance",
-  },
-];
+type EducationFromMessages = {
+  degree: string;
+  institution: string;
+  period?: string;
+};
 
-export function EducationSection() {
+export async function EducationSection() {
+  const t = await getTranslations("About");
+  const education = t.raw("education") as EducationFromMessages[];
+
   return (
     <section className="mt-16">
       <h2 className="text-3xl text-neutral-200 mb-8 font-array">
-        EDUCATION
+        {t("educationTitle")}
       </h2>
       <ol className="relative space-y-8 before:absolute before:-ml-px before:h-full before:w-0.5 before:rounded-full before:bg-gray-200 dark:before:bg-gray-700">
         {education.map((edu, index) => (
+          // biome-ignore lint/suspicious/noArrayIndexKey: No problem with the index
           <EducationItem key={index} {...edu} />
         ))}
       </ol>
     </section>
   );
 }
-

@@ -1,10 +1,15 @@
+"use client";
+
 import { DownloadIcon } from "./icons/DownloadIcon";
+import { useTranslations } from "next-intl";
 
 interface CVDownloadButtonProps {
   onOpenModal: () => void;
 }
 
 export function CVDownloadButton({ onOpenModal }: CVDownloadButtonProps) {
+  const t = useTranslations("Hero");
+
   return (
     <button
       type="button"
@@ -14,7 +19,7 @@ export function CVDownloadButton({ onOpenModal }: CVDownloadButtonProps) {
       <DownloadIcon className="absolute w-6 fill-white z-9 transition-all duration-700 -left-1/4 group-hover:left-4 group-hover:fill-white" />
 
       <span className="relative z-1 transition-all duration-700 -translate-x-3 group-hover:translate-x-3 font-bold">
-        Download CV
+        {t("downloadCV")}
       </span>
       <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-5 h-5 bg-green-700 rounded-full opacity-0 transition-all duration-700 group-hover:w-[220px] group-hover:h-[220px] group-hover:opacity-100"></span>
       <DownloadIcon className="absolute w-6 fill-white z-9 transition-all duration-700 right-4 group-hover:-right-1/4 group-hover:fill-[#212121]" />
