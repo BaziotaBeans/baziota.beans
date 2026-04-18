@@ -12,6 +12,7 @@ export interface Props {
   image: string;
   link: string;
   tags: string[];
+  liveSite: string;
 }
 
 export function ProjectCard({
@@ -21,6 +22,7 @@ export function ProjectCard({
   image,
   link,
   tags,
+  liveSite,
 }: Props) {
   return (
     <div className="w-full h-full flex flex-col border border-gray-800 rounded-lg p-4 transition-all duration-500 hover:border-green-400/20 group">
@@ -57,7 +59,7 @@ export function ProjectCard({
         className="flex items-center justify-between gap-2 mt-auto group transition-all duration-500 cursor-pointer"
       >
         <span className="text-xs text-gray-400 transition-colors group-hover:text-green-400">
-          Live Site
+          {liveSite}
         </span>
 
         <Globe className="w-4 h-4 text-gray-400 transition-all duration-500 group-hover:text-gray-200 group-hover:rotate-180" />

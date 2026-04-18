@@ -141,5 +141,57 @@
         "institution": "Aliança Francesa"
       }
     ]
+  },
+  "Projects": {
+    "title": "PROJETOS",
+    "description": "Sou um engenheiro de software apaixonado por criar soluções elegantes para problemas complexos. Com experiência em desenvolvimento full-stack, gosto de construir aplicações centradas no usuário que fazem a diferença.",
+    "tagBuilding": "Adoro construir coisas",
+    "liveSite": "Ver site",
+    "projects": [
+      {
+        "year": 2025,
+        "name": "Coral Ecommerce",
+        "description": "Coral Ecommerce é uma plataforma para vender produtos online.",
+        "image": "/images/projects/project-01.png",
+        "link": "https://coral-ecommerce-beans.vercel.app/",
+        "tags": [
+          "Next.js",
+          "React",
+          "Tailwind CSS",
+          "TypeScript",
+          "PostgreSQL",
+          "Docker",
+          "CI/CD",
+          "Storybook",
+          "Jest",
+          "React Testing Library"
+        ]
+      },
+      {
+        "year": 2023,
+        "name": "Case Cobra",
+        "description": "Loja de e-commerce moderna para capas de celular personalizadas.",
+        "image": "/images/projects/project-02.png",
+        "link": "https://casecobra-beans.vercel.app/",
+        "tags": [
+          "Next.js",
+          "React",
+          "Tailwind CSS",
+          "TypeScript",
+          "Stripe",
+          "Prisma",
+          "Kinde",
+          "HeadlessUI"
+        ]
+      },
+      {
+        "year": 2025,
+        "name": "Velvet Pour",
+        "description": "Site imersivo de coquetéis com vídeo sincronizado ao scroll e animações cinematográficas.",
+        "image": "/images/projects/project-03.png",
+        "link": "https://cocktail-gsap-beans.vercel.app/",
+        "tags": ["React", "Tailwind CSS", "Javascript", "Vite", "GSAP", "Kinde"]
+      }
+    ]
   }
 }
