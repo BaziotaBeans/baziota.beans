@@ -8,5 +8,123 @@
     "description": "Sou um desenvolvedor independente. <br /> Meus interesses estão na experiência de marca e experiência do usuário.",
     "contactButton": "Vamos conversar",
     "downloadCV": "Baixar CV"
+  },
+  "About": {
+    "title": "SOBRE MIM",
+    "description": "Sou um engenheiro de software apaixonado por criar soluções elegantes para problemas complexos. Com experiência em desenvolvimento full-stack, gosto de construir aplicações centradas no usuário que fazem a diferença. <br /><br /> Adoro transformar ideias em experiências digitais intuitivas, sempre com foco em performance, usabilidade e arquitetura limpa. A colaboração guia meu processo — gosto de trabalhar em equipe para construir produtos significativos que resolvem desafios do mundo real.",
+    "imageAlt": "Foto de perfil",
+    "username": "BaziotaBeans",
+    "experienceTitle": "EXPERIÊNCIA",
+    "experiences": [
+      {
+        "title": "DESENVOLVEDOR DE SOFTWARE (FULL STACK)",
+        "company": "Fisgar",
+        "location": "Brasil",
+        "period": "2025 - Atual",
+        "description": [
+          "Atualmente na Fisgar, trabalho na plataforma https://fisgar.com.br/, desenvolvendo, mantendo e adicionando novas funcionalidades.",
+          "Trabalho com tecnologias de frontend como Next.js, React, Jest, React Testing Library, WebSocket, entre outras no ecossistema TypeScript e React voltado ao desenvolvimento web.",
+          "Desenvolvimento backend com Spring Boot, Node.js com Express e Firebase Functions para funções serverless e desenvolvimento de APIs."
+        ],
+        "technologies": [
+          "TypeScript",
+          "Next.js",
+          "React",
+          "Jest",
+          "React Testing Library",
+          "WebSocket",
+          "Spring Boot",
+          "Node.js",
+          "Express",
+          "Firebase Functions",
+          "Docker",
+          "PostgreSQL",
+          "MySQL",
+          "CI/CD"
+        ],
+        "website": "https://fisgar.com.br/"
+      },
+      {
+        "title": "DESENVOLVEDOR DE SOFTWARE (FRONT-END)",
+        "company": "Cherry IT",
+        "location": "Brasil",
+        "period": "2024 - 2025",
+        "description": [
+          "Fui responsável pelo desenvolvimento e pela liderança técnica da equipe de frontend do sistema público de gestão de investimentos do estado do Ceará.",
+          "Implementação de componentes reutilizáveis e bibliotecas customizadas para otimizar performance e consistência entre projetos.",
+          "Colaboração com equipes de design e backend para integrar APIs e garantir funcionalidade e usabilidade do produto.",
+          "Seguindo boas práticas e novas tecnologias para manter os projetos atualizados e eficientes."
+        ],
+        "technologies": [
+          "TypeScript",
+          "React",
+          "Next.js",
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "Docker",
+          "CI/CD"
+        ]
+      },
+      {
+        "title": "DESENVOLVEDOR DE SOFTWARE (FRONT-END)",
+        "company": "Sparktech",
+        "location": "Angola",
+        "period": "2021 - 2025",
+        "description": [
+          "Participei do desenvolvimento da plataforma Ventus e liderei a equipe de frontend da plataforma Cinemax.",
+          "Implementação de funcionalidades e componentes reutilizáveis com React e TypeScript.",
+          "Criação de aplicativos mobile multiplataforma com React Native.",
+          "Integração de APIs RESTful para comunicação com o backend.",
+          "Otimização de performance e SEO em aplicações Next.js.",
+          "Colaboração com equipes de design e backend para garantir consistência e eficiência dos projetos.",
+          "Participação em code reviews e mentoria de desenvolvedores júnior.",
+          "Uso do Electron em alguns aplicativos desktop."
+        ],
+        "technologies": [
+          "TypeScript",
+          "React",
+          "Next.js",
+          "React Native",
+          "Electron",
+          "JavaScript",
+          "RESTful APIs",
+          "Docker",
+          "CI/CD",
+          "Storybook",
+          "Jest",
+          "React Testing Library",
+          "React Native Testing Library"
+        ]
+      },
+      {
+        "title": "DESENVOLVEDOR DE SOFTWARE",
+        "company": "Ramos Soft",
+        "location": "Angola",
+        "period": "2017 - 2020",
+        "description": [
+          "Instrutor de lógica de programação em C.",
+          "Desenvolvimento de aplicativos desktop com Java (Java SE).",
+          "JDBC e MySQL em aplicativos desktop corporativos.",
+          "Desenvolvimento de aplicações web com Java (JSP), servidor Tomcat e MySQL.",
+          "Desenvolvimento de aplicações web com Java (JSF + Primefaces), servidor Wildfly e PostgreSQL.",
+          "Desenvolvimento de algumas APIs com Spring Boot, PostgreSQL e deploy."
+        ],
+        "technologies": [
+          "Java",
+          "Java SE",
+          "JSP",
+          "JSF",
+          "Primefaces",
+          "Spring Boot",
+          "JDBC",
+          "MySQL",
+          "PostgreSQL",
+          "Tomcat",
+          "Wildfly",
+          "C"
+        ]
+      }
+    ]
   }
 }
