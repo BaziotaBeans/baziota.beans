@@ -125,6 +125,21 @@
           "C"
         ]
       }
+    ],
+    "educationTitle": "FORMAÇÃO",
+    "education": [
+      {
+        "degree": "Licenciatura em Engenharia Informática",
+        "institution": "Universidade Católica de Angola"
+      },
+      {
+        "degree": "Ensino médio",
+        "institution": "Colégio Alpega"
+      },
+      {
+        "degree": "Ensino fundamental e médio",
+        "institution": "Aliança Francesa"
+      }
     ]
   }
 }

@@ -125,6 +125,21 @@
           "C"
         ]
       }
+    ],
+    "educationTitle": "EDUCATION",
+    "education": [
+      {
+        "degree": "Bachelor's Degree in Computer Engineering",
+        "institution": "Catholic University of Angola"
+      },
+      {
+        "degree": "High School",
+        "institution": "Alpega College"
+      },
+      {
+        "degree": "Elementary/Middle School",
+        "institution": "French Alliance"
+      }
     ]
   }
 }
