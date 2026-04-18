@@ -193,5 +193,55 @@
         "tags": ["React", "Tailwind CSS", "Javascript", "Vite", "GSAP", "Kinde"]
       }
     ]
+  },
+  "Setup": {
+    "pageTitle": "Como construo — Setup, tecnologia e ferramentas",
+    "galleryTitle": "Setup",
+    "galleryDescription": "Um espaço de trabalho pensado para produtividade e conforto. Cada peça foi escolhida com ergonomia, desempenho e qualidade em mente, criando um ambiente onde consigo focar no que importa: transformar ideias em código.",
+    "buyLink": "Comprar",
+    "items": [
+      {
+        "name": "MacBook Pro M2",
+        "description": "MacBook Pro Apple 2023 com chip M2 Pro (CPU 10 núcleos e GPU 16 núcleos): tela Liquid Retina XDR de 14,2\", 16 GB de memória unificada, SSD de 512 GB. Compatível com iPhone/iPad; cinza-espacial.",
+        "srcFront": "/images/setup/macbook-front.jpeg",
+        "srcBack": "/images/setup/mackbook-back.jpeg",
+        "link": "https://www.amazon.com/Apple-MacBook-Laptop-10%E2%80%91core-16%E2%80%91core/dp/B0BSHDVBXZ?th=1"
+      },
+      {
+        "name": "Razer Basilisk V3 35K",
+        "description": "Mouse gamer ergonômico com fio Razer Basilisk V3 35K: roda HyperScroll inclinada, sensor óptico de 35K DPI (2ª geração), 13 controles personalizáveis, Chroma RGB, switches ópticos 3ª geração e cabo Speedflex.",
+        "srcFront": "/images/setup/mouse-front.jpg",
+        "srcBack": "/images/setup/mouse-back.jpeg",
+        "link": "https://www.razer.com/eu-en/gaming-mice/razer-basilisk-v3-35k?srsltid=AfmBOoqsw6gbH8jX3Go_YiTLEpEuuK_T9FSkNhAoc59fZ9Np-pm98mSK"
+      },
+      {
+        "name": "Monitor curvo Xiaomi 34\"",
+        "description": "Monitor gaming curvo XIAOMI de 34\", 180 Hz, tempo de resposta de 1 ms, FreeSync Premium, 95% DCI-P3, 100% sRGB, luz azul reduzida, modelo G34WQi.",
+        "srcFront": "/images/setup/monitor-front.webp",
+        "srcBack": "/images/setup/monitor-back.jpg",
+        "link": "https://www.amazon.com/Xiaomi-34-inch-Response-FreeSync-Computer/dp/B0D1HQK5G5/ref=sr_1_1?crid=1UD2SPS7RJX9X&dib=eyJ2IjoiMSJ9.U21GeRZqpkFS0lmBetLu8Pf5FpsT3IkIqsNzKewOF5SioT3-lwRCmJlU1XQNuxfu2U1YXX8GloZAvCBrhHJcozS_HN-_Ot8U2dCmXuPiywP6ugC91s9NNNaAkmYvysw3Ecb1abnSHl9lZaTIm5-iePYKzjsTsoMQGaOhQfLN__-aXddmaRCHRxJKaVsL_jEflrfq2r8RH_VL68L3JASZxl11UQuqPKD0UpgEcVgKPDQ.QrxMFs26yz1UKBXJ2Jl3iEoSH3DKWH0gS3s8eiXfOQQ&dib_tag=se&keywords=monitor%2Bxiaomi%2B34&qid=1765742898&sprefix=Monitor%2Bxiaomi%2B%2Caps%2C438&sr=8-1&th=1"
+      },
+      {
+        "name": "Cadeira de escritório FelixKing",
+        "description": "Cadeira de escritório FelixKing em malha respirável, costas altas ajustáveis, suporte lombar, apoios de braços basculantes, base giratória — ideal para home office (preto).",
+        "srcFront": "/images/setup/chair-front.jpeg",
+        "srcBack": "/images/setup/chair-back.jpeg",
+        "link": "https://www.amazon.com/FelixKing-Ergonomic-Breathable-Adjustable-Executive/dp/B0BG1H99FB/ref=sr_1_25?crid=2SBUQFKVEM4MF&dib=eyJ2IjoiMSJ9.9Do7EtuOx_lceq6URu2r6RP9iIQ8uv7dovOx2B1CfuFulWJ1qmS0R6NHJsXbYjKwL1UhipKmWf04sbiCuHiPTEF2kVBZQoBH70fsHa-JNNLC35N5zAJUB6j2-6Pg38IXiKGzgeUl9P3dwyoYOJD60gz6V3gQDx877ZVmg9JWe_mex1-JhigrLjP-h98GUESBYSGA9YwcXMKSUMswLTR3gV-J5J5Ox2e_NGmWuNEKfjb0xJqp4_urQpNfjVBzI_8vsQ2TZ8a03AeSMMl1E2-dF1j-ZpSzLTEzWvnmeMfh-Pc.QwZ0rwAN8jTUyB-w-90sAlE6Tz-5L0MQsmDPOIIqiFs&dib_tag=se&keywords=Cadeira%2Bde%2Bescritorio&qid=1765743018&sprefix=cadeira%2Bde%2Bescritori%2Caps%2C413&sr=8-25&th=1"
+      },
+      {
+        "name": "Apple AirPods Pro 2",
+        "description": "Apple AirPods Pro (2.ª geração) com carregamento USB-C, cancelamento de ruído ativo até 2x mais forte, modo transparência, áudio adaptativo e áudio espacial personalizado.",
+        "srcFront": "/images/setup/headphones-front.jpg",
+        "srcBack": "/images/setup/headphones-back.jpg",
+        "link": "https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0CHWRXH8B/ref=sr_1_1?adgrpid=158043049586&dib=eyJ2IjoiMSJ9.KMgLWCW2IVo_3D8pvFXujnhfI9qzUsgm4IzQWEe4PHW4G10Wt6pRMlqHx7rgACYiobIw01f1yZiNxVTxc3c0Y_999lwZkauXkWIGArQ6YWCGPAUX98PwfFOM4vht05ukt6IEV-1-i51M4FNvFrDOXJqct9UOreij4b-pTf4Mv_Ofr4AkZgMyfs-TmlrR7uhkkX1M0lc9-WJCvALBu5bkqBQ7TWDtlY_TYZkszYqTy7k.GKdwNnYSU233E1wJIonDerX3YYbbRmvASXN6JGJQmOU&dib_tag=se&hvadid=689767484604&hvdev=c&hvlocphy=1000003&hvnetw=g&hvqmt=e&hvrand=8292438521046630550&hvtargid=kwd-2404068379087&hydadcr=8260_13674411&keywords=apple+airpods+pro+2+brand+new&mcid=58d9bf7830963d3596d64a186ccd335c&qid=1765799883&sr=8-1"
+      },
+      {
+        "name": "Mesa gamer vidaXL 35\"",
+        "description": "Mesa gamer vidaXL de 35\" com pés em Y, suportes para fones e controle, porta-copos, estrutura resistente para jogos e home office (preta).",
+        "srcFront": "/images/setup/gaming-desk-front.webp",
+        "srcBack": "/images/setup/gaming-desk-back.jpeg",
+        "link": "https://www.amazon.com/vidaXL-Gaming-Black-Engineered-Y-shaped/dp/B0C28RF7PL/ref=sr_1_1?crid=1DEGCI8DKNLHG&dib=eyJ2IjoiMSJ9.u6P_rcAf_1Q7m07TB0-Z_rZgdo_9OZ2oPbtcuLZtt-RcpK67IopF-RMWYXvyf5KSD2eNKmHfHyxmTnSjAt5NoT3IqFdfE8R6mPMHw2WkSD3P2n9z_Jt4ZTRpmbpA2xgX5264BY_DjnenR3uMTE6vw73iuQs-_ot3JWIa0W85YgM72quBlhv7eJ113QdQEh9XDanM2d69q1YlML7J0oZb6XOkJKRifjIbH0qwn_aPL1YPgZouhhuR8XQRS8CopDe1cci1bl53Vb-AKdFFwETOQquIX7TiyVBcAevV2svw9cc.WBYyrF--ISuoYgPQfp2NUCAxXUJs3YBO2QgbCNEllj0&dib_tag=se&keywords=gaming%2BVIDAXL&qid=1765808369&sprefix=gaming%2Bvidaxl%2Caps%2C557&sr=8-1&th=1"
+      }
+    ]
   }
 }

@@ -1,13 +1,16 @@
+import { getTranslations } from "next-intl/server";
 import MaxWidthWrapper from "../MaxWidthWrapper";
 import { SetupGallery } from "./SetupGallery";
-import { TechAndTools } from "./TechAndTools";
+// import { TechAndTools } from "./TechAndTools";
 
-export function Setup() {
+export async function Setup() {
+  const t = await getTranslations("Setup");
+
   return (
     <section className="w-full relative bg-transparent py-30">
       <MaxWidthWrapper>
         <h1 className="text-4xl text-neutral-200 mb-8 font-array text-center md:text-left">
-          How I Build — Setup, Tech & Tools
+          {t("pageTitle")}
         </h1>
 
         {/* <p className="text-neutral-400 text-center md:text-left">
@@ -18,7 +21,7 @@ export function Setup() {
 
         <SetupGallery />
 
-        <TechAndTools />
+        {/* <TechAndTools /> */}
       </MaxWidthWrapper>
     </section>
   );

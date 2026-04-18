@@ -1,21 +1,32 @@
 import Image from "next/image";
-import setups from "@/data/setups.json";
 import Link from "next/link";
+import { getTranslations } from "next-intl/server";
 import { getBlurDataURL } from "@/lib/imageUtils";
 
-export function SetupGallery() {
+type SetupItemFromMessages = {
+  name: string;
+  description: string;
+  srcFront: string;
+  srcBack: string;
+  link: string;
+};
+
+export async function SetupGallery() {
+  const t = await getTranslations("Setup");
+  const items = t.raw("items") as SetupItemFromMessages[];
+
   return (
     <div>
-      <h1 className="mt-4 text-3xl text-neutral-200 mb-4 font-array text-center md:text-left">
-        Setup
-      </h1>
+      <h2 className="mt-4 text-3xl text-neutral-200 mb-4 font-array text-center md:text-left">
+        {t("galleryTitle")}
+      </h2>
 
       <p className="text-neutral-400 text-center md:text-left mb-8">
-        A carefully curated workspace designed for maximum productivity and comfort. Each piece was chosen with ergonomics, performance, and quality in mind, creating a space where I can fully focus on what matters: turning ideas into code.
+        {t("galleryDescription")}
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-3  gap-4">
-        {setups.data.map((setup) => (
+        {items.map((setup) => (
           <div
             key={setup.name}
             className="relative w-full h-full flex flex-col border border-gray-800 rounded-lg p-2 transition-all duration-500 hover:border-green-400/20 hover:bg-gray-900 group overflow-hidden"
@@ -46,7 +57,7 @@ export function SetupGallery() {
                 href={setup.link}
                 className="font-medium mt-auto text-green-400 transition-all hover:text-green-600"
               >
-                Buy
+                {t("buyLink")}
               </Link>
             </div>
           </div>
