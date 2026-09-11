@@ -7,53 +7,55 @@
     "title": "Bem-vindo ao <br /> meu humilde lar digital",
     "description": "Sou um desenvolvedor independente. <br /> Meus interesses estão na experiência de marca e experiência do usuário.",
     "contactButton": "Vamos conversar",
-    "downloadCV": "Baixar CV"
+    "downloadCV": "Baixar CV",
+    "cvModalTitle": "Escolha a versão do CV",
+    "cvPortuguese": "Português",
+    "cvEnglish": "English"
   },
   "About": {
     "title": "SOBRE MIM",
-    "description": "Sou um engenheiro de software apaixonado por criar soluções elegantes para problemas complexos. Com experiência em desenvolvimento full-stack, gosto de construir aplicações centradas no usuário que fazem a diferença. <br /><br /> Adoro transformar ideias em experiências digitais intuitivas, sempre com foco em performance, usabilidade e arquitetura limpa. A colaboração guia meu processo — gosto de trabalhar em equipe para construir produtos significativos que resolvem desafios do mundo real.",
+    "description": "Desenvolvedor de Sistemas Full Stack com experiência no ciclo completo de desenvolvimento e manutenção de aplicações empresariais e Web. Domínio em Java (Spring Boot), Node.js, PostgreSQL e ecossistema Web (JavaScript, HTML5, CSS3, React, Vue.js). Forte atuação no desenho de APIs RESTful, arquitetura de sistemas escaláveis e integração de serviços externos. Perfil analítico com foco em resolução de problemas, boas práticas de segurança, testes automatizados e entrega de resultados em ambientes colaborativos.",
     "imageAlt": "Foto de perfil",
     "username": "BaziotaBeans",
     "experienceTitle": "EXPERIÊNCIA",
     "experiences": [
       {
-        "title": "DESENVOLVEDOR DE SOFTWARE (FULL STACK)",
+        "title": "DESENVOLVEDOR DE SOFTWARE",
         "company": "Fisgar",
-        "location": "Brasil",
-        "period": "2025 - Atual",
+        "location": "Brasil (Remoto)",
+        "period": "2025 - 2026",
         "description": [
-          "Atualmente na Fisgar, trabalho na plataforma https://fisgar.com.br/, desenvolvendo, mantendo e adicionando novas funcionalidades.",
-          "Trabalho com tecnologias de frontend como Next.js, React, Jest, React Testing Library, WebSocket, entre outras no ecossistema TypeScript e React voltado ao desenvolvimento web.",
-          "Desenvolvimento backend com Spring Boot, Node.js com Express e Firebase Functions para funções serverless e desenvolvimento de APIs."
+          "Desenvolvimento, manutenção e evolução contínua da plataforma fisgar.com.br, entregando novas funcionalidades em ambiente de produção.",
+          "Stack: Next.js, React, Node.js, Spring Boot, Firebase e WebSocket, com testes automatizados via Jest e React Testing Library.",
+          "Atuação no ecossistema TypeScript/React voltado para aplicações web de alta disponibilidade."
         ],
         "technologies": [
           "TypeScript",
           "Next.js",
           "React",
-          "Jest",
-          "React Testing Library",
-          "WebSocket",
-          "Spring Boot",
           "Node.js",
-          "Express",
-          "Firebase Functions",
-          "Docker",
-          "PostgreSQL",
-          "MySQL",
-          "CI/CD"
+          "Spring Boot",
+          "Firebase",
+          "WebSocket",
+          "Jest",
+          "React Testing Library"
         ],
         "website": "https://fisgar.com.br/"
       },
       {
-        "title": "DESENVOLVEDOR DE SOFTWARE (FRONT-END)",
+        "title": "DESENVOLVEDOR DE SOFTWARE",
         "company": "Cherry IT",
-        "location": "Brasil",
+        "location": "Brasil (Remoto)",
         "period": "2024 - 2025",
         "description": [
-          "Fui responsável pelo desenvolvimento e pela liderança técnica da equipe de frontend do sistema público de gestão de investimentos do estado do Ceará.",
+          "Liderança técnica da equipe de frontend do sistema de gestão de investimentos públicos do Estado do Ceará.",
           "Implementação de componentes reutilizáveis e bibliotecas customizadas para otimizar performance e consistência entre projetos.",
-          "Colaboração com equipes de design e backend para integrar APIs e garantir funcionalidade e usabilidade do produto.",
-          "Seguindo boas práticas e novas tecnologias para manter os projetos atualizados e eficientes."
+          "Colaboração direta com equipes de design e backend para integração de APIs, garantindo funcionalidade e usabilidade do produto.",
+          "Acompanhamento de melhores práticas e novas tecnologias para manter os projetos atualizados e eficientes.",
+          "Definição da arquitetura frontend.",
+          "Decisões técnicas.",
+          "Revisão de código.",
+          "Acompanhamento das entregas."
         ],
         "technologies": [
           "TypeScript",
@@ -67,19 +69,16 @@
         ]
       },
       {
-        "title": "DESENVOLVEDOR DE SOFTWARE (FRONT-END)",
+        "title": "DESENVOLVEDOR DE SOFTWARE",
         "company": "Sparktech",
         "location": "Angola",
         "period": "2021 - 2025",
         "description": [
-          "Participei do desenvolvimento da plataforma Ventus e liderei a equipe de frontend da plataforma Cinemax.",
+          "Participação no desenvolvimento da plataforma Ventus e liderança da equipe de frontend da plataforma Cinemax.",
           "Implementação de funcionalidades e componentes reutilizáveis com React e TypeScript.",
-          "Criação de aplicativos mobile multiplataforma com React Native.",
-          "Integração de APIs RESTful para comunicação com o backend.",
-          "Otimização de performance e SEO em aplicações Next.js.",
-          "Colaboração com equipes de design e backend para garantir consistência e eficiência dos projetos.",
-          "Participação em code reviews e mentoria de desenvolvedores júnior.",
-          "Uso do Electron em alguns aplicativos desktop."
+          "Criação de aplicativos móveis multiplataforma com React Native e aplicações desktop com Electron.",
+          "Integração de APIs RESTful para comunicação com o backend e otimização de performance e SEO em aplicações Next.js.",
+          "Participação em code reviews e mentoria de desenvolvedores juniores."
         ],
         "technologies": [
           "TypeScript",
@@ -98,30 +97,29 @@
         ]
       },
       {
-        "title": "DESENVOLVEDOR DE SOFTWARE",
+        "title": "PROFESSOR & DESENVOLVEDOR DE SOFTWARE",
         "company": "Ramos Soft",
         "location": "Angola",
-        "period": "2017 - 2020",
+        "period": "2017 - 2018",
         "description": [
-          "Instrutor de lógica de programação em C.",
-          "Desenvolvimento de aplicativos desktop com Java (Java SE).",
-          "JDBC e MySQL em aplicativos desktop corporativos.",
-          "Desenvolvimento de aplicações web com Java (JSP), servidor Tomcat e MySQL.",
-          "Desenvolvimento de aplicações web com Java (JSF + Primefaces), servidor Wildfly e PostgreSQL.",
-          "Desenvolvimento de algumas APIs com Spring Boot, PostgreSQL e deploy."
+          "Professor de lógica de programação usando C.",
+          "Professor de Algoritmo e estrutura de dados.",
+          "Desenvolvimento de aplicações desktop corporativas com Java (Java SE), JDBC e MySQL.",
+          "Desenvolvimento de aplicações web com Java (JSP) sobre servidor Tomcat e MySQL, e com Java (JSF + PrimeFaces) sobre servidor WildFly e PostgreSQL.",
+          "Desenvolvimento e implantação de APIs com Spring Boot e PostgreSQL."
         ],
         "technologies": [
           "Java",
           "Java SE",
           "JSP",
           "JSF",
-          "Primefaces",
+          "PrimeFaces",
           "Spring Boot",
           "JDBC",
           "MySQL",
           "PostgreSQL",
           "Tomcat",
-          "Wildfly",
+          "WildFly",
           "C"
         ]
       }
@@ -130,15 +128,8 @@
     "education": [
       {
         "degree": "Licenciatura em Engenharia Informática",
-        "institution": "Universidade Católica de Angola"
-      },
-      {
-        "degree": "Ensino médio",
-        "institution": "Colégio Alpega"
-      },
-      {
-        "degree": "Ensino fundamental e médio",
-        "institution": "Aliança Francesa"
+        "institution": "Universidade Católica de Angola",
+        "period": "2023/2024"
       }
     ]
   },
@@ -148,6 +139,47 @@
     "tagBuilding": "Adoro construir coisas",
     "liveSite": "Ver site",
     "projects": [
+      {
+        "year": 2026,
+        "name": "OdontoPro",
+        "description": "um sistema de gestão de odontologia para uma clínica odontológica.",
+        "image": "/images/projects/project-04.png",
+        "link": "https://odontopro-web.vercel.app/",
+        "tags": [
+          "React",
+          "Tailwind CSS",
+          "TypeScript",
+          "Spring Boot",
+          "Multitenancy",
+          "Spring Security",
+          "PostgreSQL",
+          "Docker",
+          "CI/CD",
+          "Biome",
+          "Vitest",
+          "Vite",
+          "Tanstack Router",
+          "Tanstack Query"
+        ]
+      },
+      {
+        "year": 2025,
+        "name": "Ticketor",
+        "description": "plataforma de compra de bilhetes de cinema.",
+        "image": "/images/projects/project-05.png",
+        "link": "https://ticketor-beans.vercel.app/",
+        "tags": [
+          "React",
+          "Tailwind CSS",
+          "TypeScript",
+          "Spring Boot",
+          "Multitenancy",
+          "Spring Security",
+          "PostgreSQL",
+          "Docker",
+          "CI/CD"
+        ]
+      },
       {
         "year": 2025,
         "name": "Coral Ecommerce",

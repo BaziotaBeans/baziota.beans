@@ -7,8 +7,8 @@ import { motion, AnimatePresence } from "motion/react";
 import { cn } from "@/lib/utils";
 
 const locales = [
-  { code: "en", label: "English", flag: "🇺🇸" },
-  { code: "pt", label: "Português", flag: "🇧🇷" },
+  { code: "en", label: "English", flag: "🇬🇧" },
+  { code: "pt", label: "Português", flag: "🇵🇹" },
 ] as const;
 
 export function LocaleSelector() {

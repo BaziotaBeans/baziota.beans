@@ -1,8 +1,8 @@
 export type CVLanguage = "eng" | "pt";
 
 const CV_FILENAMES: Record<CVLanguage, string> = {
-  eng: "CV - ENG - Beans.pdf",
-  pt: "CV - PT - Beans.pdf",
+  eng: "Fabio_Baziota_EN_CV.pdf",
+  pt: "Fabio_Baziota_CV.pdf",
 };
 
 export const downloadCV = (language: CVLanguage): void => {

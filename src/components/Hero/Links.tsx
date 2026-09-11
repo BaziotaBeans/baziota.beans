@@ -1,4 +1,4 @@
-import { FaXTwitter, FaLinkedinIn, FaFacebookF, FaCodepen, FaInstagram, FaGithub, FaEnvelope } from "react-icons/fa6";
+import { FaXTwitter, FaLinkedinIn, FaCodepen, FaInstagram, FaGithub, FaEnvelope, FaMedium } from "react-icons/fa6";
 
 import Link from "next/link";
 import { cn } from "@/lib/utils";
@@ -15,6 +15,9 @@ export function Links({ className }: Props) {
       </Link>
       <Link href="https://www.linkedin.com/in/f%C3%A1bio-baziota-57b979174/" target="_blank" className="hero-links">
         <FaLinkedinIn />
+      </Link>
+      <Link href="https://medium.com/@fabiobaziota" target="_blank" className="hero-links">
+        <FaMedium />
       </Link>
       <Link href="https://codepen.io/baziotabeans" target="_blank" className="hero-links">
         <FaCodepen />

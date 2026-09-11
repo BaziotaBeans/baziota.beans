@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaXTwitter, FaLinkedinIn, FaFacebookF, FaCodepen, FaInstagram, FaGithub, FaEnvelope } from "react-icons/fa6";
+import { FaXTwitter, FaLinkedinIn, FaCodepen, FaInstagram, FaGithub, FaEnvelope, FaMedium } from "react-icons/fa6";
 
 
 export function Footer() {
@@ -19,6 +19,13 @@ export function Footer() {
           className="hero-links"
         >
           <FaLinkedinIn />
+        </Link>
+        <Link
+          href="https://medium.com/@fabiobaziota"
+          target="_blank"
+          className="hero-links"
+        >
+          <FaMedium />
         </Link>
         <Link
           href="https://codepen.io/baziotabeans"

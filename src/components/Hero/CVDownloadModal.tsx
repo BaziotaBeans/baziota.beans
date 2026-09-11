@@ -1,6 +1,7 @@
 "use client";
 
 import { motion, AnimatePresence } from "motion/react";
+import { useTranslations } from "next-intl";
 import { CloseIcon } from "./icons/CloseIcon";
 import { CVOptionButton } from "./CVOptionButton";
 
@@ -10,6 +11,8 @@ interface CVDownloadModalProps {
 }
 
 export function CVDownloadModal({ isOpen, onClose }: CVDownloadModalProps) {
+  const t = useTranslations("Hero");
+
   return (
     <AnimatePresence>
       {isOpen && (
@@ -39,12 +42,12 @@ export function CVDownloadModal({ isOpen, onClose }: CVDownloadModalProps) {
             </button>
 
             <h2 className="text-2xl text-white mb-6 text-center font-array">
-              Choose the CV version
+              {t("cvModalTitle")}
             </h2>
 
             <div className="flex flex-col gap-4">
-              <CVOptionButton language="pt" label="Portuguese" />
-              <CVOptionButton language="eng" label="English" />
+              <CVOptionButton language="pt" label={t("cvPortuguese")} />
+              <CVOptionButton language="eng" label={t("cvEnglish")} />
             </div>
           </motion.div>
         </motion.div>
@@ -52,4 +55,3 @@ export function CVDownloadModal({ isOpen, onClose }: CVDownloadModalProps) {
     </AnimatePresence>
   );
 }
-
