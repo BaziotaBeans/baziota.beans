@@ -144,7 +144,7 @@
         "name": "OdontoPro",
         "description": "um sistema de gestão de odontologia para uma clínica odontológica.",
         "image": "/images/projects/project-04.png",
-        "link": "https://odontopro-web.vercel.app/",
+        "link": "https://www.odontopro360.com/",
         "tags": [
           "React",
           "Tailwind CSS",
@@ -222,7 +222,14 @@
         "description": "Site imersivo de coquetéis com vídeo sincronizado ao scroll e animações cinematográficas.",
         "image": "/images/projects/project-03.png",
         "link": "https://cocktail-gsap-beans.vercel.app/",
-        "tags": ["React", "Tailwind CSS", "Javascript", "Vite", "GSAP", "Kinde"]
+        "tags": [
+          "React",
+          "Tailwind CSS",
+          "Javascript",
+          "Vite",
+          "GSAP",
+          "Kinde"
+        ]
       }
     ]
   },
